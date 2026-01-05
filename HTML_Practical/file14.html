@@ -1,0 +1,24 @@
+<!-- Range element , textarea -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="100" step="10" value="60">
+        <button>Submit</button>
+        </div>
+        <hr>
+        <div>
+            <label for="feedback">Enter Your Feedback</label>
+            <textarea name="feedback"  id="feedback" rows="4" cols="10" placeholder="Please enter your feedback "></textarea>
+            <button>Submit Feedback</button>
+        </div>
+    </form>
+</body>
+</html>
