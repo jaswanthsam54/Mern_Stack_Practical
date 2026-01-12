@@ -1,0 +1,11 @@
+button:hover {
+    background-color: darkgray;
+    color: white;
+}
+p:active {
+    color: green;
+}
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: darkblue;
+}
