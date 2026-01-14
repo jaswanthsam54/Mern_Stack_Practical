@@ -1,0 +1,14 @@
+#outer {
+    background-color: lightblue;
+    border: 5px solid blue;
+    height: 400px;
+    width: 400px;
+    margin: 5px;
+}
+.inner {
+    background-color: lightgreen;
+    border: 5px solid green;
+    height: 100px;
+    width: 100px;
+    margin-left: 33.33%;
+}
