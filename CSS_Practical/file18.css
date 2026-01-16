@@ -1,0 +1,32 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 3px solid black;
+    margin: 5px;
+    display: inline-block;
+}
+#static {
+    background-color: cyan;
+    top: 100px;
+    left: 100px;
+    position: static;
+}
+#relative {
+    background-color: cyan;
+    top: 100px;
+    left: 100px;
+    position: relative;
+}
+#absolute {
+    background-color: cyan;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+#fixed {
+    background-color: cyan;
+    top: 100px;
+    left: 100px;
+    position: fixed;
+}
